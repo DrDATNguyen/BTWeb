@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+  h1.logo {
+    font-weight: bold;
+  }
+
+  h2, h3, h4 {
+    font-weight: bold;
+  }
+
+  .hero {
+    background-color: #f9f9f9;
+  }
+
+  .features {
+    background-color: #f1f1f1;
+  }
+
+  .testimonial {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  footer h5 {
+    color: #f9f9f9;
+  }
+
+  footer address, footer p {
+    color: #ccc;
+  }
+
+  footer .payment-method img {
+    width: 100px;
+  }
+
+  .check-features {
+    background-color: #ffffff;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000;
+  }
+
+  ul li a {
+    font-weight: bold;
+  }
+
+  .screenshot-images img {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 0;
+  }
+
+  .cta-buttons {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .purchase-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .tour-btn {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  span {
+    margin: 0 10px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+
+  .footer-section {
+    width: 30%;
+  }
+
+  .footer-section h4 {
+    color: #ff6600;
+  }
+
+  .footer-section p {
+    color: #ccc;
+  }
+
+  /* Media Queries for Mobile */
+  @media (max-width: 767.98px) {
+    .hero .row {
+      text-align: center;
+    }
+    
+    .hero img {
+      margin: 20px 0;
+    }
+
+    .features .col-md-4 {
+      margin-bottom: 20px;
+    }
+
+    .footer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
